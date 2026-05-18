@@ -3,7 +3,7 @@
 function App() {
   const [theme, setTheme] = useState(() => {
     try {
-      return localStorage.getItem("alto-theme") || "light";
+      return "light";
     } catch { return "dark"; }
   });
 
