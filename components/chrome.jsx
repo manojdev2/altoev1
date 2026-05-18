@@ -15,9 +15,9 @@ function Nav({ theme, onToggleTheme }) {
         <a className="nav__link" href="#ecosystem">Ecosystem</a>
         <a className="nav__link" href="#future">Future</a>
       </div>
-      <button className="theme-toggle" onClick={onToggleTheme} aria-label="Toggle theme">
-        {theme === "dark" ? <Icon.Sun/> : <Icon.Moon/>}
-      </button>
+     <span style={{ display: 'inline-flex', alignItems: 'center', width:90}}>
+        <a href ='https://alto-space.vercel.app/index.html'><img   src="uploads/Alto.space.png"></img></a>
+        </span>
       <button className="nav__cta">Reserve</button>
     </nav>
   );
