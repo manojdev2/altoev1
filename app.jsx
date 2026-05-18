@@ -12,7 +12,7 @@ function App() {
     try { localStorage.setItem("alto-theme", theme); } catch {}
   }, [theme]);
 
-  const toggle = () => setTheme((t) => (t === "dark" ? "light" : "dark"));
+  const toggle = () => setTheme((t) => (t === "light" ? "light" : "light"));
 
   return (
     <React.Fragment>
