@@ -4,7 +4,7 @@ function App() {
   const [theme, setTheme] = useState(() => {
     try {
       return "light";
-    } catch { return "dark"; }
+    } catch { return "light"; }
   });
 
   useEffect(() => {
